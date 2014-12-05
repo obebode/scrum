@@ -42,6 +42,8 @@ INSTALLED_APPS = (
 
 
 )
+SESSION_COOKIE_NAME="sessionid"
+LANGUAGE_COOKIE_NAME = "django_language"
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
